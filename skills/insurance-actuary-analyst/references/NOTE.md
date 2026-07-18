@@ -1,0 +1,1 @@
+No additional reference material — real mortality/morbidity tables and regulatory capital standards are jurisdiction- and line-specific and change over time; always flag those as needing a current, sourced reference rather than baking assumed figures into a static file.

@@ -1,0 +1,1 @@
+No static template asset needed — output is illustrative analysis per the SKILL.md format. If the user wants a transaction log formatted as a spreadsheet, hand off to the xlsx skill for the file-creation step.

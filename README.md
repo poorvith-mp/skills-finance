@@ -2,10 +2,10 @@
 
 Claude / Agent **skills** library by **Poorvith M P**.
 
-- Version: **v0.1**
+- Version: **v0.2**
 - Last updated: **July 2026**
 - License: **MIT**
-- Skills in this repo: **5**
+- Skills in this repo: **9**
 
 Part of the **[open-claude-skills](https://github.com/prvthmpcypher/open-claude-skills)** multi-repo hub.
 
@@ -27,8 +27,12 @@ Zip a single `skills/<skill-id>` folder and upload via **Settings → Capabiliti
 | Skill ID | Title |
 |----------|-------|
 | `bookkeeper-and-controller` | Bookkeeper & Controller |
+| `budget-expense-auditor` | Budget & Expense Auditor |
+| `cap-table-fundraising-modeler` | Cap Table & Fundraising Modeler |
+| `crypto-tax-specialist` | Crypto Tax Specialist |
 | `financial-analyst` | Financial Analyst |
 | `fp-and-a-analyst` | FP&A Analyst |
+| `insurance-actuary-analyst` | Insurance & Actuarial Analyst |
 | `investment-researcher` | Investment Researcher |
 | `tax-strategist` | Tax Strategist |
 
@@ -46,3 +50,4 @@ skills/<skill-id>/
 ## Author
 
 Copyright (c) 2026 Poorvith M P
+Follow the build: [@poorvith_mp](https://x.com/poorvith_mp)

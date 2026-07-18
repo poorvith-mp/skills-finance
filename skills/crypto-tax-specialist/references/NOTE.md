@@ -1,0 +1,1 @@
+No additional reference material — jurisdiction-specific crypto tax rules change too often and vary too much to bake into a static reference file; always flag those for current, jurisdiction-specific source verification instead.
