@@ -1,0 +1,1 @@
+No fixed output template needed — this skill produces an in-chat review formatted per the SKILL.md template. If the user wants the review as a spreadsheet, hand off to the xlsx skill for the file-creation step.
