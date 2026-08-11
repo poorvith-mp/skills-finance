@@ -1,1 +1,0 @@
-No fixed output template needed — output is an in-chat table per the SKILL.md format. If the user wants a working spreadsheet model instead of a static table, hand off to the xlsx skill for the file-creation step.

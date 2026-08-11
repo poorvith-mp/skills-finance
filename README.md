@@ -1,53 +1,30 @@
 # skills-finance
 
-Claude / Agent **skills** library by **Poorvith M P**.
+Finance skills collection for Claude Code, Antigravity IDE, and Claude.ai — part of [open-claude-skills](https://github.com/prvthmpcypher/open-claude-skills).
 
-- Version: **v0.2**
-- Last updated: **July 2026**
+- Version: **v2.0**
+- Total skills: **12**
 - License: **MIT**
-- Skills in this repo: **9**
-
-Part of the **[open-claude-skills](https://github.com/prvthmpcypher/open-claude-skills)** multi-repo hub.
 
 ## Install
 
-### Claude Code
 ```bash
-# copy one skill
 cp -R skills/<skill-id> ~/.claude/skills/<skill-id>
-# or project-local
-cp -R skills/<skill-id> .claude/skills/<skill-id>
 ```
 
-### Claude.ai
-Zip a single `skills/<skill-id>` folder and upload via **Settings → Capabilities → Skills**.
-
-## Skill index
+## Skills
 
 | Skill ID | Title |
 |----------|-------|
-| `bookkeeper-and-controller` | Bookkeeper & Controller |
-| `budget-expense-auditor` | Budget & Expense Auditor |
-| `cap-table-fundraising-modeler` | Cap Table & Fundraising Modeler |
-| `crypto-tax-specialist` | Crypto Tax Specialist |
+| `bookkeeper-and-controller` | Bookkeeper And Controller |
+| `budget-expense-auditor` | Budget Expense Auditor |
+| `cap-table-fundraising-modeler` | Cap Table Fundraising Modeler |
+| `chief-financial-officer` | Chief Financial Officer |
+| `crypto-tax-advisor` | Crypto Tax Advisor |
 | `financial-analyst` | Financial Analyst |
-| `fp-and-a-analyst` | FP&A Analyst |
-| `insurance-actuary-analyst` | Insurance & Actuarial Analyst |
+| `financial-plan-starter` | Financial Plan Starter |
+| `fp-and-a-analyst` | Fp And A Analyst |
+| `insurance-actuary-analyst` | Insurance Actuary Analyst |
 | `investment-researcher` | Investment Researcher |
+| `invoice-and-payment-writer` | Invoice And Payment Writer |
 | `tax-strategist` | Tax Strategist |
-
-## Structure
-
-Each skill follows skill-creator conventions:
-
-```text
-skills/<skill-id>/
-├── SKILL.md
-├── references/NOTE.md   # empty tips for future progressive disclosure
-└── assets/NOTE.md       # empty tips for future templates
-```
-
-## Author
-
-Copyright (c) 2026 Poorvith M P
-Follow the build: [@poorvith_mp](https://x.com/poorvith_mp)

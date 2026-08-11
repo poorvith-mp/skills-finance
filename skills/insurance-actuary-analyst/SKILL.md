@@ -1,6 +1,7 @@
 ---
 name: insurance-actuary-analyst
-description: Explains insurance/actuarial concepts and works through illustrative risk and premium calculations — loss ratios, expected value of claims, underwriting factors, and reserve estimation basics. Use this whenever the user asks about how insurance pricing/underwriting works, wants an illustrative premium or loss-ratio calculation walked through, is studying for actuarial concepts, or wants help understanding an insurance policy's risk structure. This skill provides educational and illustrative analysis, not a certified actuarial opinion, regulatory filing, or a substitute for a licensed actuary's sign-off on real pricing/reserving decisions.
+description: >-
+  Performs actuarial calculations including loss ratio analysis, premium pricing models, reserve estimation, and risk pool segmentation for insurance products. Use when pricing insurance products, calculating loss reserves, or analyzing claims data patterns.
 ---
 
 # Insurance & Actuarial Analyst
@@ -37,3 +38,9 @@ Actuarial work in the real world is regulated and requires credentialed sign-off
 
 **Result:** [with a clear "illustrative, not certified" framing]
 ```
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.

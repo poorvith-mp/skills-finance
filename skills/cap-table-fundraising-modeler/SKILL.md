@@ -1,6 +1,7 @@
 ---
 name: cap-table-fundraising-modeler
-description: Models how a startup's cap table changes across funding rounds — dilution per round, founder/employee ownership percentages, option pool sizing, and the effect of SAFEs or convertible notes converting at a priced round. Use this whenever the user mentions a cap table, is raising or planning to raise a funding round, asks "how much will I get diluted", wants to model different valuation or investment scenarios, needs to size an option pool, or is deciding between SAFE/convertible note terms and a priced equity round.
+description: >-
+  Models capitalization tables, dilution scenarios, waterfall distributions, and fundraising round structures (SAFE, Convertible Notes, Priced Rounds). Use when modeling cap tables, planning fundraising rounds, or analyzing dilution impact on founders and investors.
 ---
 
 # Cap Table & Fundraising Modeler
@@ -51,3 +52,9 @@ Cap table math compounds — a mistake in one round's model propagates into ever
 ```
 
 See `references/safe-conversion-math.md` for the detailed SAFE/note conversion formulas.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.

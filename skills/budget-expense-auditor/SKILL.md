@@ -1,6 +1,7 @@
 ---
 name: budget-expense-auditor
-description: Reviews a budget or expense report to find anomalies, overspend, duplicate charges, unusual month-over-month swings, and concrete cut opportunities. Use this whenever the user shares expense data (CSV, spreadsheet, or pasted numbers), asks "where is my money going", "why did this month cost more", "help me find things to cut", wants a personal or business budget reviewed, or is preparing for a monthly/quarterly financial review. Also use it when the user wants to build a budget from scratch and needs category benchmarks to compare against.
+description: >-
+  Analyzes budgets and expense reports for anomalies, overspending patterns, misclassified charges, and optimization opportunities with variance analysis. Use when auditing departmental budgets, reviewing expense reports, or identifying cost reduction opportunities.
 ---
 
 # Budget & Expense Auditor
@@ -47,3 +48,9 @@ Anyone can total a spreadsheet. The value here is judgment: knowing that a categ
 ```
 
 See `references/category-benchmarks.md` for rough category-share benchmarks to use when the user wants "is this normal?" context rather than just period-over-period comparison.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.

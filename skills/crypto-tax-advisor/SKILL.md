@@ -1,6 +1,7 @@
 ---
-name: crypto-tax-specialist
-description: Explains cryptocurrency tax treatment concepts and works through illustrative calculations — capital gains/losses on disposals, cost-basis methods (FIFO/LIFO/specific ID), taxable events (trades, staking rewards, airdrops), and record-keeping structure. Use this whenever the user has crypto transactions to think through for tax purposes, asks whether a specific crypto activity is a taxable event, wants help understanding cost-basis methods, or needs help organizing transaction records for tax filing. This is educational and illustrative — it does not replace a qualified tax professional's advice for an actual filing, and tax treatment varies significantly by jurisdiction and changes over time.
+name: crypto-tax-advisor
+description: >-
+  Calculates cryptocurrency tax obligations including capital gains, DeFi yield income, NFT transactions, and cross-chain activity with proper cost basis methods (FIFO, LIFO, HIFO). Use when preparing crypto tax returns, calculating DeFi income, or planning tax-efficient crypto strategies.
 ---
 
 # Crypto Tax Specialist
@@ -49,3 +50,9 @@ Which methods are actually permitted, and whether a taxpayer can switch between 
 
 **Flagged for professional verification:** [anything jurisdiction-specific or involving newer/unsettled transaction types]
 ```
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
