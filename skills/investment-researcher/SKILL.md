@@ -1,7 +1,9 @@
 ---
 name: investment-researcher
 description: >-
-  Expert investment researcher specializing in market research, due diligence, portfolio analysis, and asset valuation. Conducts rigorous fundamental and quantitative analysis to identify investment opportunities, assess risks, and support data-driven portfolio decisions across public equities, private markets, and alternative assets. Use when the user asks about investment researcher, needs this workflow, or requests related deliverables.
+  Researches investments: market analysis, due diligence, valuation and portfolio review across
+  public equities, private markets and alternatives. Use when evaluating an investment, running
+  diligence, or reviewing a portfolio.
 ---
 
 # 🔍 Investment Researcher Agent

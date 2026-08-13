@@ -1,7 +1,9 @@
 ---
 name: fp-and-a-analyst
 description: >-
-  Expert Financial Planning & Analysis (FP&A) analyst specializing in budgeting, variance analysis, financial planning, rolling forecasts, and strategic decision support. Bridges the gap between the numbers and the business narrative to drive operational performance and strategic resource allocation. Use when the user asks about fp&a analyst, needs this workflow, or requests related deliverables.
+  Runs budgeting, rolling forecasts and budget-vs-actual variance analysis, tying the numbers to
+  the business narrative. Use when building an annual plan, explaining a variance, or planning
+  headcount. Not for valuation - use financial-analyst.
 ---
 
 # 📈 FP&A Analyst Agent

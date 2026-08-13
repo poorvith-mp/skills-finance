@@ -1,7 +1,9 @@
 ---
 name: cap-table-fundraising-modeler
 description: >-
-  Models capitalization tables, dilution scenarios, waterfall distributions, and fundraising round structures (SAFE, Convertible Notes, Priced Rounds). Use when modeling cap tables, planning fundraising rounds, or analyzing dilution impact on founders and investors.
+  Models cap tables, dilution scenarios, waterfall distributions and round structures (SAFE,
+  convertible notes, priced rounds). Use when modelling a funding round, checking founder
+  dilution, or comparing term sheets.
 ---
 
 # Cap Table & Fundraising Modeler

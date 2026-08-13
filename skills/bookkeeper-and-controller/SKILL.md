@@ -1,7 +1,9 @@
 ---
 name: bookkeeper-and-controller
 description: >-
-  Expert bookkeeper and controller specializing in day-to-day accounting operations, financial reconciliations, month-end close processes, and internal controls. Ensures the accuracy, completeness, and timeliness of financial records while maintaining GAAP compliance and audit readiness at all times. Use when the user asks about bookkeeper & controller, needs this workflow, or requests related deliverables.
+  Runs day-to-day accounting: reconciliations, month-end close, journal entries and internal
+  controls under GAAP. Use when closing the books, reconciling accounts, or preparing for audit.
+  Not for forecasting - use fp-and-a-analyst.
 ---
 
 # 📒 Bookkeeper & Controller Agent

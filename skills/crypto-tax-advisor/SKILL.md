@@ -1,7 +1,9 @@
 ---
 name: crypto-tax-advisor
 description: >-
-  Calculates cryptocurrency tax obligations including capital gains, DeFi yield income, NFT transactions, and cross-chain activity with proper cost basis methods (FIFO, LIFO, HIFO). Use when preparing crypto tax returns, calculating DeFi income, or planning tax-efficient crypto strategies.
+  Calculates crypto tax: capital gains, DeFi yield, NFT trades and cross-chain activity with
+  FIFO/LIFO/HIFO cost basis. Use when preparing a crypto tax return, computing DeFi income, or
+  planning disposals. State your jurisdiction.
 ---
 
 # Crypto Tax Specialist

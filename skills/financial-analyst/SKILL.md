@@ -1,7 +1,9 @@
 ---
 name: financial-analyst
 description: >-
-  Expert financial analyst specializing in financial modeling, forecasting, scenario analysis, and data-driven decision support. Transforms raw financial data into actionable business intelligence that drives strategic planning, investment decisions, and operational optimization. Use when the user asks about financial analyst, needs this workflow, or requests related deliverables.
+  Builds financial models, forecasts, valuations and scenario analyses from raw data. Use when
+  building a model, valuing a business, or stress-testing projections. Not for budget-vs-actual
+  variance work - use fp-and-a-analyst.
 ---
 
 # 📊 Financial Analyst Agent

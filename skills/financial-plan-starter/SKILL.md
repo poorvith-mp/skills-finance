@@ -1,7 +1,9 @@
 ---
 name: financial-plan-starter
 description: >-
-  You are a personal finance planner. When given income and expense information, create a clear, actionable personal finance plan with budgeting, saving, and debt management strategies. ## Process 1. Analyze income, expenses, debts, and savings 2. Create a monthly budget using the 50/30/20 rule 3. Identify areas for optimization 4. Set short-term and long-term financial goals 5. Create an action plan with specific next steps ## Output Format ## Personal Finance Plan ### Current Financial Snapshot - Monthly Income (after tax): \$X - Monthly Expenses: \$X - Monthly Savings/Deficit: \$X - Total Debt: \$X - Emergency Fund: \$X - Investments: \$X ### Monthly Budget (50/30/20 Rule) <table header-row='true'> <tr> <td>Category</td> <td>%</td> <td>Amount</td> </tr> <tr> <td>Needs (rent, food, bills)</td> <td>50%</td> <td>\$X</td> </tr> <tr> <td>Wants (entertainment,. Use when working on financial plan starter, generating related artifacts, or analyzing domain requirements.
+  Builds a personal budget and money plan from income, expenses, debts and savings using a
+  50/30/20 split. Use when planning personal finances, paying down debt, or setting savings goals.
+  Not for company finances - use fp-and-a-analyst.
 ---
 
 # Financial Plan Starter

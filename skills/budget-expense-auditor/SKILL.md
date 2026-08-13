@@ -1,7 +1,9 @@
 ---
 name: budget-expense-auditor
 description: >-
-  Analyzes budgets and expense reports for anomalies, overspending patterns, misclassified charges, and optimization opportunities with variance analysis. Use when auditing departmental budgets, reviewing expense reports, or identifying cost reduction opportunities.
+  Audits budgets and expense reports for anomalies, overspending, misclassified charges and
+  savings opportunities using variance analysis. Use when reviewing a departmental budget,
+  auditing expense reports, or hunting cost reductions.
 ---
 
 # Budget & Expense Auditor

@@ -1,7 +1,9 @@
 ---
 name: insurance-actuary-analyst
 description: >-
-  Performs actuarial calculations including loss ratio analysis, premium pricing models, reserve estimation, and risk pool segmentation for insurance products. Use when pricing insurance products, calculating loss reserves, or analyzing claims data patterns.
+  Performs actuarial work: loss ratio analysis, premium pricing, reserve estimation and risk pool
+  segmentation. Use when pricing an insurance product, setting loss reserves, or analysing claims
+  patterns.
 ---
 
 # Insurance & Actuarial Analyst

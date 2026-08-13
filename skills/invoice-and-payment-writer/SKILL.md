@@ -1,7 +1,9 @@
 ---
 name: invoice-and-payment-writer
 description: >-
-  Generates professional invoices, payment schedules, and accounts receivable documentation with proper tax calculations, payment terms, and late fee policies. Use when creating client invoices, setting up payment milestones, or drafting payment reminder communications.
+  Drafts invoices, payment schedules and receivables documents with tax lines, payment terms and
+  late-fee policy. Use when invoicing a client, setting payment milestones, or chasing an overdue
+  payment.
 ---
 
 # Invoice & Payment Writer
