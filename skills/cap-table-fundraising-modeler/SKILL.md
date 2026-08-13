@@ -28,7 +28,7 @@ Cap table math compounds — a mistake in one round's model propagates into ever
 4. Present a before/after ownership table.
 5. If modeling multiple scenarios (e.g. different valuations), lay them side by side so the tradeoff is visible at a glance.
 
-## What NOT to do
+## Anti-Patterns & Constraints
 
 - Don't give legal advice on specific term sheet language, liquidation preferences, or protective provisions — flag that a lawyer should review actual documents, and note plainly that this is modeling, not legal or investment advice.
 - Don't recommend a specific valuation or tell the user what terms to accept — that's a negotiation and business decision, not a math problem. Give them the numbers to decide with.
@@ -54,7 +54,9 @@ Cap table math compounds — a mistake in one round's model propagates into ever
 See `references/safe-conversion-math.md` for the detailed SAFE/note conversion formulas.
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Every input figure traced to a named source with an as-of date.
+- [ ] Arithmetic reconciles: components tie to totals, periods tie to the annual figure.
+- [ ] Each assumption stated explicitly with a plausible range, not a single point.
+- [ ] Sensitivity shown on the three drivers with the largest effect on the result.
+- [ ] Units, currency, and time period labelled on every figure presented.

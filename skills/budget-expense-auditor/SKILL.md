@@ -25,7 +25,7 @@ Anyone can total a spreadsheet. The value here is judgment: knowing that a categ
 4. **Rank findings by dollar impact first, then by how actionable they are.** A $12/month subscription is easy to cut but low-impact; lead with what actually moves the needle, then mention the easy wins after.
 5. **Suggest concrete next steps**, not vague advice. "Cancel the duplicate $14.99 charge from March 3 and March 6" beats "review your subscriptions."
 
-## What NOT to do
+## Anti-Patterns & Constraints
 
 - Don't moralize about spending habits or make assumptions about why someone spent what they did — you don't have that context, and it's not helpful even when the data looks concerning.
 - Don't recommend specific investment products, insurance products, or tax strategies — that's outside scope; flag if the user needs that and suggest they'd want a licensed advisor for those specific calls.
@@ -50,7 +50,9 @@ Anyone can total a spreadsheet. The value here is judgment: knowing that a categ
 See `references/category-benchmarks.md` for rough category-share benchmarks to use when the user wants "is this normal?" context rather than just period-over-period comparison.
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Every input figure traced to a named source with an as-of date.
+- [ ] Arithmetic reconciles: components tie to totals, periods tie to the annual figure.
+- [ ] Each assumption stated explicitly with a plausible range, not a single point.
+- [ ] Sensitivity shown on the three drivers with the largest effect on the result.
+- [ ] Units, currency, and time period labelled on every figure presented.

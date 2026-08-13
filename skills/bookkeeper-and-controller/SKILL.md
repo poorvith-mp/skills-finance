@@ -59,12 +59,15 @@ Maintain accurate, complete, and timely financial records that support informed 
 3. Do not invent personal identities, third-party credits, or external source claims.
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Every input figure traced to a named source with an as-of date.
+- [ ] Arithmetic reconciles: components tie to totals, periods tie to the annual figure.
+- [ ] Each assumption stated explicitly with a plausible range, not a single point.
+- [ ] Sensitivity shown on the three drivers with the largest effect on the result.
+- [ ] Units, currency, and time period labelled on every figure presented.
 
 ## Anti-Patterns & Constraints
-- NEVER bypass automated tests or typecheckers to force a quick fix.
-- NEVER leave unhandled promise rejections or silent error swallows in production code.
-- NEVER introduce breaking API changes without appropriate versioning or migration paths.
+
+- NEVER present a point estimate without the assumptions behind it.
+- NEVER mix fiscal and calendar periods without labelling which is which.
+- NEVER imply licensed tax, audit, or investment advice - state the boundary.

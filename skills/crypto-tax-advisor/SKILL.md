@@ -32,7 +32,7 @@ Which methods are actually permitted, and whether a taxpayer can switch between 
 3. **Flag record-keeping gaps** — crypto transaction history across multiple exchanges/wallets is a common source of real filing errors; recommend consolidating a complete transaction history (including transfers between the user's own wallets, to correctly track cost basis) before finalizing any calculation.
 4. **Flag newer/unsettled transaction types explicitly** — DeFi liquidity provision, NFT-specific treatment, complex staking/restaking structures often have less settled guidance; say so rather than asserting a confident treatment.
 
-## What NOT to do
+## Anti-Patterns & Constraints
 
 - Don't state a specific jurisdiction's current tax rate, reporting threshold, or filing deadline as fact without flagging it needs verification against a current, official source.
 - Don't present an illustrative calculation as ready to file without a professional's review — frame it as work-through material that makes the eventual conversation with a tax professional faster and more informed, not a replacement for it.
@@ -52,7 +52,8 @@ Which methods are actually permitted, and whether a taxpayer can switch between 
 ```
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Jurisdiction and effective date stated for every rule or threshold cited.
+- [ ] Governing authority or regulation named, not paraphrased generically.
+- [ ] Scope-of-advice boundary stated explicitly in the output.
+- [ ] A named human review step identified before anything is acted on.

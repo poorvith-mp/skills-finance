@@ -22,7 +22,7 @@ Actuarial work in the real world is regulated and requires credentialed sign-off
 2. **Work the math step by step** with clearly labeled assumptions — actuarial calculations compound assumptions, and showing the work lets the user (or their actual actuary) verify or correct any input.
 3. **Explain the "why" behind a concept**, not just the formula — e.g. why loss ratio alone doesn't capture profitability (expenses and investment income matter too) is often more useful than the ratio itself.
 
-## What NOT to do
+## Anti-Patterns & Constraints
 
 - Don't present illustrative calculations as certified actuarial output, a regulatory filing, or something that should directly set real premiums/reserves without professional review.
 - Don't invent realistic-sounding industry loss ratios, mortality tables, or regulatory capital requirements as if they were current verified figures — flag clearly when a number is illustrative/assumed versus sourced.
@@ -40,7 +40,8 @@ Actuarial work in the real world is regulated and requires credentialed sign-off
 ```
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Jurisdiction and effective date stated for every rule or threshold cited.
+- [ ] Governing authority or regulation named, not paraphrased generically.
+- [ ] Scope-of-advice boundary stated explicitly in the output.
+- [ ] A named human review step identified before anything is acted on.

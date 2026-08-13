@@ -44,12 +44,14 @@ Minimize the organization's effective tax rate through legal, sustainable, and w
 3. Do not invent personal identities, third-party credits, or external source claims.
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Jurisdiction and effective date stated for every rule or threshold cited.
+- [ ] Governing authority or regulation named, not paraphrased generically.
+- [ ] Scope-of-advice boundary stated explicitly in the output.
+- [ ] A named human review step identified before anything is acted on.
 
 ## Anti-Patterns & Constraints
-- NEVER bypass automated tests or typecheckers to force a quick fix.
-- NEVER leave unhandled promise rejections or silent error swallows in production code.
-- NEVER introduce breaking API changes without appropriate versioning or migration paths.
+
+- NEVER give jurisdiction-specific legal, medical, or tax advice without naming the jurisdiction.
+- NEVER omit the boundary that a licensed professional must review the result.
+- NEVER present a rule as current without stating the date it was checked.
