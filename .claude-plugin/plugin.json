@@ -1,0 +1,20 @@
+{
+  "name": "skills-finance",
+  "displayName": "Finance Skills",
+  "version": "1.0.0",
+  "description": "12 finance skills. FP&A, treasury, tax, cap tables, investment research and bookkeeping.",
+  "author": {
+    "name": "Poorvith M P",
+    "url": "https://github.com/prvthmpcypher"
+  },
+  "homepage": "https://github.com/prvthmpcypher/skillary",
+  "repository": "https://github.com/prvthmpcypher/skills-finance",
+  "license": "MIT",
+  "keywords": [
+    "finance",
+    "fpa",
+    "accounting",
+    "tax",
+    "agent-skills"
+  ]
+}
