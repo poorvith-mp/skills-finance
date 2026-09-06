@@ -1,7 +1,16 @@
 should_fire:
-  - "help with investment research"
-  - "run market analysis, due diligence, valuation and portfolio review across asset classes."
-  - "run investment-research workflow"
+  - 'analyze an enterprise software company''s 10-K annual report and revenue disclosures'
+  - 'evaluate competitive advantages, ROIC, and moat durability of a public cloud company'
+  - 'dissect an executive earnings call transcript to identify shifting management commentary'
+  - 'compare valuation multiples (EV/Sales, P/E, EV/FCF) across enterprise SaaS peers'
+  - 'analyze a company''s free cash flow generation, working capital trends, and debt maturity profile'
+  - 'evaluate the margin impact of transition from on-premise licensing to cloud subscriptions'
+  - 'assess risks of customer concentration and supplier pricing power in an SEC filing'
+  - 'synthesize Wall Street analyst consensus estimates and identify variant investment perspectives'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'conduct macroeconomic market trend research for startup founders'
+    expect: 'market-trends'
+  - prompt: 'build three-statement operational models for your own company'
+    expect: 'financial-modeling'
+  - prompt: 'manage personal retirement asset allocation and savings rate'
+    expect: 'personal-finance'

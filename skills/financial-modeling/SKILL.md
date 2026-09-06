@@ -1,7 +1,9 @@
 ---
 name: financial-modeling
+group: Modelling
 description: >-
-  Build models, forecasts, valuations and scenario analyses from raw data.
+  Build models, forecasts, valuations and scenario analyses from raw data. Use when building
+  three-statement models, DCF valuations, or pro formas.
 ---
 # Financial Modeling
 

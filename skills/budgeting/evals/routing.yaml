@@ -1,7 +1,16 @@
 should_fire:
-  - "help with budgeting"
-  - "build the budget, run rolling forecasts, and explain budget-versus-actual variance and expense anomalies."
-  - "run budgeting workflow"
+  - 'build an annual operating expense (OpEx) budget for our engineering team'
+  - 'conduct a monthly budget vs actual variance analysis to find cost overruns'
+  - 'establish department spending limits and travel budget guidelines for employees'
+  - 'model hiring headcount costs including benefits, taxes, and equipment stipends'
+  - 'create a zero-based budget requiring managers to justify all annual expenses'
+  - 'reforecast our annual company budget after missing quarterly revenue targets'
+  - 'allocate discretionary marketing and engineering budgets across quarters'
+  - 'track capital expenditures (CapEx) against our approved annual capital budget'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'calculate cash runway in months and emergency burn limits'
+    expect: 'runway-planning'
+  - prompt: 'reconcile daily bank transactions and journal entries'
+    expect: 'bookkeeping'
+  - prompt: 'manage personal household budgets and savings rates'
+    expect: 'personal-finance'

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with runway planning"
-  - "work out burn rate, months of runway, which cuts buy how long, and when the raise has to start."
-  - "run runway-planning workflow"
+  - 'calculate our exact cash runway in months based on our trailing 3-month net burn'
+  - 'when is our projected Zero Cash Date (ZCD) under current revenue growth and expenses'
+  - 'how to get our company to ''Default Alive'' without relying on a future funding round'
+  - 'model aggressive expense reduction scenarios (freeze hiring, cut tooling) to extend runway by 6 months'
+  - 'establish minimum cash safety buffers and trigger dates for when to start raising'
+  - 'analyze how cash collections timing and annual upfront billing impact working capital'
+  - 'track gross burn vs net burn rates and understand our monthly cash burn trajectory'
+  - 'determine whether we have sufficient runway to reach our next key milestone before running out of money'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'build comprehensive annual departmental operating expense budgets'
+    expect: 'budgeting'
+  - prompt: 'build integrated 3-statement pro forma financial models'
+    expect: 'financial-modeling'
+  - prompt: 'manage investor fundraising pipelines and due diligence'
+    expect: 'fundraising'

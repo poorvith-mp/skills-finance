@@ -1,7 +1,9 @@
 ---
 name: runway-planning
+group: Modelling
 description: >-
   Work out burn rate, months of runway, which cuts buy how long, and when the raise has to start.
+  Use when calculating net burn, zero-cash dates, or default-alive plans.
 ---
 # Runway Planning
 

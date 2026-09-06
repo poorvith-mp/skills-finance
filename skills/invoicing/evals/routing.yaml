@@ -1,7 +1,16 @@
 should_fire:
-  - "help with invoicing"
-  - "draft invoices, payment schedules and receivables with tax lines, payment terms and late-fee policy."
-  - "run invoicing workflow"
+  - 'create a professional, compliant commercial invoice with Net 30 payment terms'
+  - 'write polite but firm automated follow-up emails for past-due invoice collections'
+  - 'handle multi-currency billing and international wire transfer payment instructions'
+  - 'structure milestone billing for a custom software development contract'
+  - 'apply sales tax, VAT, or GST correctly on cross-border software invoices'
+  - 'track Accounts Receivable aging buckets: current, 30 days, 60 days, 90+ days'
+  - 'resolve a client invoice dispute regarding billable consulting hours'
+  - 'set up automated recurring subscription billing and credit card retries'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'process incoming vendor bills and schedule supplier payments'
+    expect: 'accounts-payable'
+  - prompt: 'reconcile bank ledger entries and double-entry accounting'
+    expect: 'bookkeeping'
+  - prompt: 'draft a legally binding Statement of Work (SOW)'
+    expect: 'proposals'

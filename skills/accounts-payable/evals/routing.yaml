@@ -1,7 +1,16 @@
 should_fire:
-  - "help with accounts payable"
-  - "run payables"
-  - "run accounts-payable workflow"
+  - 'manage incoming vendor bills, purchase orders, and payment approvals'
+  - 'implement three-way matching between purchase orders, receiving reports, and vendor invoices'
+  - 'schedule supplier payments to optimize cash flow without incurring late penalties'
+  - 'audit employee expense reports for compliance with corporate travel policies'
+  - 'collect and verify IRS Form W-9 from independent contractors before payment'
+  - 'set up Bill.com or automated accounts payable approval workflows for department leads'
+  - 'prevent duplicate vendor payments and fraudulent invoice submissions'
+  - 'prepare annual 1099-NEC and 1099-MISC filings for contractor disbursements'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'issue outbound client invoices and collect past-due accounts receivable'
+    expect: 'invoicing'
+  - prompt: 'negotiate software procurement pricing and contract terms with vendors'
+    expect: 'vendor-selection'
+  - prompt: 'reconcile monthly bank balances and general ledger entries'
+    expect: 'bookkeeping'

@@ -1,7 +1,9 @@
 ---
 name: saas-metrics
+group: Modelling
 description: >-
-  Track MRR, ARR, cohort revenue, net revenue retention, and recognise revenue on the right period.
+  Track MRR, ARR, cohort revenue, net revenue retention, and recognise revenue on the right
+  period. Use when tracking ARR/MRR, Net Revenue Retention, CAC payback, or churn.
 ---
 # Saas Metrics
 

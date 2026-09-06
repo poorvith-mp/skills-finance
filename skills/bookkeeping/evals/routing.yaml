@@ -1,7 +1,16 @@
 should_fire:
-  - "help with bookkeeping"
-  - "run day-to-day accounting"
-  - "run bookkeeping workflow"
+  - 'reconcile monthly bank account transactions against our accounting ledger'
+  - 'set up a clean Chart of Accounts for a SaaS business in QuickBooks or Xero'
+  - 'categorize business expenses, credit card charges, and recurring software subscriptions'
+  - 'record double-entry bookkeeping journal entries: debits, credits, and accruals'
+  - 'reconcile Stripe merchant payouts against bank deposits and processing fees'
+  - 'close our monthly books and prepare the trial balance for financial statements'
+  - 'identify discrepancies between bank statement balances and general ledger records'
+  - 'manage depreciation schedules and journal entries for fixed business assets'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'prepare quarterly corporate tax returns and tax deduction strategies'
+    expect: 'tax-strategy'
+  - prompt: 'build forward-looking 3-year cash flow projections and pro formas'
+    expect: 'financial-modeling'
+  - prompt: 'manage incoming vendor bills and approval workflows'
+    expect: 'accounts-payable'

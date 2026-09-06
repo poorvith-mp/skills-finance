@@ -1,7 +1,16 @@
 should_fire:
-  - "help with crypto tax"
-  - "calculate capital gains, defi yield, nft trades and cross-chain activity under fifo, lifo or hifo."
-  - "run crypto-tax workflow"
+  - 'calculate capital gains and losses on cryptocurrency trades using FIFO, LIFO, or HIFO'
+  - 'determine the tax treatment of DeFi staking rewards, liquidity pools, and yield farming'
+  - 'harvest crypto tax losses before year-end to offset capital gains'
+  - 'reconcile multi-wallet and multi-exchange transactions for IRS Form 8949 reporting'
+  - 'how are NFT mints, sales, and creator royalties taxed under federal guidelines'
+  - 'account for cryptocurrency received as payment for freelance software development work'
+  - 'track tax basis across crypto bridging, wrapped tokens, and token swaps'
+  - 'resolve missing cost basis records for historical crypto transactions'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'develop Solidity smart contracts for DeFi tokens'
+    expect: 'smart-contracts'
+  - prompt: 'plan general corporate startup tax deductions and R&D credits'
+    expect: 'tax-strategy'
+  - prompt: 'manage personal budgets and retirement accounts'
+    expect: 'personal-finance'

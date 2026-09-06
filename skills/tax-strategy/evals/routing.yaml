@@ -1,7 +1,16 @@
 should_fire:
-  - "help with tax strategy"
-  - "plan entity structure, transfer pricing, credits and multi-jurisdiction compliance."
-  - "run tax-strategy workflow"
+  - 'qualify software development engineering expenses for the federal R&D Tax Credit'
+  - 'verify whether founder equity qualifies for Qualified Small Business Stock (QSBS) exclusion'
+  - 'optimize corporate tax deductions for home office, travel, and capital asset purchases'
+  - 'plan year-end tax strategies to minimize corporate taxable net income legally'
+  - 'navigate Section 174 software development expense capitalization rules'
+  - 'understand state sales tax nexus thresholds for digital SaaS software sales'
+  - 'evaluate tax implications of international corporate transfer pricing and foreign subsidiaries'
+  - 'file timely 83(b) elections to minimize future capital gains taxes on unvested stock'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'calculate cryptocurrency trade gains and DeFi tax liabilities'
+    expect: 'crypto-tax'
+  - prompt: 'reconcile monthly bank accounting ledger records'
+    expect: 'bookkeeping'
+  - prompt: 'incorporate a new corporate entity (C-Corp vs LLC)'
+    expect: 'company-formation'

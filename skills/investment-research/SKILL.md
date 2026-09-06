@@ -1,7 +1,9 @@
 ---
 name: investment-research
+group: Investing
 description: >-
-  Run market analysis, due diligence, valuation and portfolio review across asset classes.
+  Run market analysis, due diligence, valuation and portfolio review across asset classes. Use
+  when evaluating public equities, earnings calls, or 10-K filings.
 ---
 # Investment Research
 

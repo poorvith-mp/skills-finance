@@ -1,7 +1,9 @@
 ---
 name: cap-table
+group: Modelling
 description: >-
-  Model cap tables, dilution scenarios, waterfalls and round structures — SAFE, convertible notes, priced.
+  Model cap tables, dilution scenarios, waterfalls and round structures — SAFE, convertible notes,
+  priced. Use when modeling founder equity, SAFEs, option pools, or dilution waterfalls.
 ---
 # Cap Table
 

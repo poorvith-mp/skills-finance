@@ -1,7 +1,16 @@
 should_fire:
-  - "help with finance strategy"
-  - "set capital allocation, treasury policy, m&a finance, investor relations and board reporting."
-  - "run finance-strategy workflow"
+  - 'evaluate the trade-offs between venture debt and equity financing for growth capital'
+  - 'structure a corporate treasury management policy to protect cash in high-yield vehicles'
+  - 'how should a software company allocate excess free cash flow: reinvestment vs dividends'
+  - 'evaluate the financial feasibility of an acquisition (M&A) of a smaller competitor'
+  - 'design a capital allocation framework balancing high-risk R&D with core operations'
+  - 'determine optimal capital structure and debt-to-equity leverage ratios'
+  - 'assess currency exchange risk (FX hedging) for international revenue streams'
+  - 'prepare a strategic financial roadmap for scaling from $5M to $25M ARR'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'prepare quarterly board meeting decks and CEO updates'
+    expect: 'board-reporting'
+  - prompt: 'build day-to-day financial models and Excel spreadsheets'
+    expect: 'financial-modeling'
+  - prompt: 'calculate operational runway and monthly cash burn limits'
+    expect: 'runway-planning'

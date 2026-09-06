@@ -1,7 +1,10 @@
 ---
 name: accounts-payable
+group: Accounting
 description: >-
-  Run payables: vendor payments, contractor invoices and recurring bills across fiat, crypto and stablecoin rails.
+  Run payables: vendor payments, contractor invoices and recurring bills across fiat, crypto and
+  stablecoin rails. Use when managing incoming vendor bills, payment approvals, or expense
+  reports.
 ---
 # Accounts Payable
 

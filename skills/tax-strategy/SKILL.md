@@ -1,7 +1,9 @@
 ---
 name: tax-strategy
+group: Tax
 description: >-
-  Plan entity structure, transfer pricing, credits and multi-jurisdiction compliance.
+  Plan entity structure, transfer pricing, credits and multi-jurisdiction compliance. Use when
+  planning corporate R&D tax credits, QSBS, or depreciation.
 ---
 # Tax Strategy
 

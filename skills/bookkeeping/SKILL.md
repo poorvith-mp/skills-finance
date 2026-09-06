@@ -1,7 +1,9 @@
 ---
 name: bookkeeping
+group: Accounting
 description: >-
-  Run day-to-day accounting: reconciliations, month-end close, journal entries and internal controls.
+  Run day-to-day accounting: reconciliations, month-end close, journal entries and internal
+  controls. Use when reconciling bank accounts, chart of accounts, or ledger entries.
 ---
 # Bookkeeping
 

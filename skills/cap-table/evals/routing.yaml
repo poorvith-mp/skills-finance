@@ -1,7 +1,16 @@
 should_fire:
-  - "help with cap table"
-  - "model cap tables, dilution scenarios, waterfalls and round structures — safe, convertible notes, priced."
-  - "run cap-table workflow"
+  - 'model capitalization table dilution from a $2M SAFE note round with valuation caps'
+  - 'calculate the post-round ownership percentages for founders, investors, and option pool'
+  - 'simulate an exit waterfall distribution across common stock and preferred liquidation preferences'
+  - 'size an employee stock option pool (ESOP) expansion to 10% on a fully diluted basis'
+  - 'model the impact of participating vs non-participating preferred shares in a downside sale'
+  - 'track stock option grants, vesting schedules, and 83(b) election deadlines for founders'
+  - 'how do convertible note interest and discount rates impact final equity conversion'
+  - 'structure secondary share sales for early founders during a growth financing round'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'manage venture capital investor pipelines and term sheet negotiations'
+    expect: 'fundraising'
+  - prompt: 'build three-statement operational financial forecasting models'
+    expect: 'financial-modeling'
+  - prompt: 'draft legally binding incorporation documents and stock purchase agreements'
+    expect: 'company-formation'

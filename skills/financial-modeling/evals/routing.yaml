@@ -1,7 +1,16 @@
 should_fire:
-  - "help with financial modeling"
-  - "build models, forecasts, valuations and scenario analyses from raw data."
-  - "run financial-modeling workflow"
+  - 'build an integrated three-statement financial model (Income Statement, Balance Sheet, Cash Flow)'
+  - 'create a dynamic revenue forecasting model based on sales pipeline and churn assumptions'
+  - 'perform a Discounted Cash Flow (DCF) valuation with sensitivity tables on WACC and growth'
+  - 'model scenario planning (Base, Bull, Bear) for board presentations and financing'
+  - 'calculate operating leverage, EBITDA margins, and free cash flow conversion'
+  - 'structure a debt repayment and interest coverage schedule for a bank facility'
+  - 'build a cohort-based revenue model for an enterprise B2B subscription company'
+  - 'audit a complex financial spreadsheet for circular references and formula errors'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'model capitalization tables, option pools, and investor dilution'
+    expect: 'cap-table'
+  - prompt: 'calculate monthly cash runway, net burn, and zero cash dates'
+    expect: 'runway-planning'
+  - prompt: 'track SaaS metrics like Net Revenue Retention and Magic Number'
+    expect: 'saas-metrics'

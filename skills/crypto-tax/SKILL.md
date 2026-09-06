@@ -1,7 +1,9 @@
 ---
 name: crypto-tax
+group: Tax
 description: >-
-  Calculate capital gains, DeFi yield, NFT trades and cross-chain activity under FIFO, LIFO or HIFO.
+  Calculate capital gains, DeFi yield, NFT trades and cross-chain activity under FIFO, LIFO or
+  HIFO. Use when calculating capital gains, staking rewards, or DeFi tax lots.
 ---
 # Crypto Tax
 

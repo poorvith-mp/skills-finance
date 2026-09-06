@@ -1,7 +1,9 @@
 ---
 name: budgeting
+group: Accounting
 description: >-
-  Build the budget, run rolling forecasts, and explain budget-versus-actual variance and expense anomalies.
+  Build the budget, run rolling forecasts, and explain budget-versus-actual variance and expense
+  anomalies. Use when creating annual operating budgets, departmental spend, or variance.
 ---
 # Budgeting
 

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with saas metrics"
-  - "track mrr, arr, cohort revenue, net revenue retention, and recognise revenue on the right period."
-  - "run saas-metrics workflow"
+  - 'calculate Annual Recurring Revenue (ARR), Monthly Recurring Revenue (MRR), and net new ARR'
+  - 'measure Net Revenue Retention (NRR) and Gross Revenue Retention (GRR) across annual cohorts'
+  - 'calculate our SaaS Magic Number to evaluate sales and marketing efficiency'
+  - 'track customer logo churn vs net revenue churn percentages monthly'
+  - 'measure Average Revenue Per User (ARPU) and expansion revenue velocity'
+  - 'analyze the Rule of 40 (growth rate plus free cash flow margin) for our SaaS business'
+  - 'calculate CAC Payback Period in months across self-serve and enterprise segments'
+  - 'build a standardized SaaS metric dashboard tracking subscription health for investors'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'analyze user product usage frequency and behavioral retention loops'
+    expect: 'retention'
+  - prompt: 'calculate unit economics and contribution margins per customer'
+    expect: 'unit-economics'
+  - prompt: 'build full three-statement financial models and cash forecasts'
+    expect: 'financial-modeling'

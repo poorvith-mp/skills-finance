@@ -1,7 +1,9 @@
 ---
 name: invoicing
+group: Accounting
 description: >-
-  Draft invoices, payment schedules and receivables with tax lines, payment terms and late-fee policy.
+  Draft invoices, payment schedules and receivables with tax lines, payment terms and late-fee
+  policy. Use when generating client invoices, payment terms, or chasing collections.
 ---
 # Invoicing
 
