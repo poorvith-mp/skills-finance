@@ -1,0 +1,7 @@
+should_fire:
+  - "help with cap table"
+  - "model cap tables, dilution scenarios, waterfalls and round structures — safe, convertible notes, priced."
+  - "run cap-table workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

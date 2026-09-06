@@ -1,0 +1,7 @@
+should_fire:
+  - "help with invoicing"
+  - "draft invoices, payment schedules and receivables with tax lines, payment terms and late-fee policy."
+  - "run invoicing workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

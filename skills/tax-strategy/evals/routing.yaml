@@ -1,0 +1,7 @@
+should_fire:
+  - "help with tax strategy"
+  - "plan entity structure, transfer pricing, credits and multi-jurisdiction compliance."
+  - "run tax-strategy workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

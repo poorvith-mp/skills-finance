@@ -1,0 +1,7 @@
+should_fire:
+  - "help with runway planning"
+  - "work out burn rate, months of runway, which cuts buy how long, and when the raise has to start."
+  - "run runway-planning workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

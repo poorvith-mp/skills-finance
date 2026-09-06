@@ -1,0 +1,7 @@
+should_fire:
+  - "help with finance strategy"
+  - "set capital allocation, treasury policy, m&a finance, investor relations and board reporting."
+  - "run finance-strategy workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

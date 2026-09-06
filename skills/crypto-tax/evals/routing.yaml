@@ -1,0 +1,7 @@
+should_fire:
+  - "help with crypto tax"
+  - "calculate capital gains, defi yield, nft trades and cross-chain activity under fifo, lifo or hifo."
+  - "run crypto-tax workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

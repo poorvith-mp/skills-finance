@@ -1,0 +1,7 @@
+should_fire:
+  - "help with investment research"
+  - "run market analysis, due diligence, valuation and portfolio review across asset classes."
+  - "run investment-research workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

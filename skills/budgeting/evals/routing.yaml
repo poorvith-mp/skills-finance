@@ -1,0 +1,7 @@
+should_fire:
+  - "help with budgeting"
+  - "build the budget, run rolling forecasts, and explain budget-versus-actual variance and expense anomalies."
+  - "run budgeting workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

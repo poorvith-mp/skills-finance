@@ -1,0 +1,7 @@
+should_fire:
+  - "help with financial modeling"
+  - "build models, forecasts, valuations and scenario analyses from raw data."
+  - "run financial-modeling workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

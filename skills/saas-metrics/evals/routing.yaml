@@ -1,0 +1,7 @@
+should_fire:
+  - "help with saas metrics"
+  - "track mrr, arr, cohort revenue, net revenue retention, and recognise revenue on the right period."
+  - "run saas-metrics workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

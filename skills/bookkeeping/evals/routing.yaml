@@ -1,0 +1,7 @@
+should_fire:
+  - "help with bookkeeping"
+  - "run day-to-day accounting"
+  - "run bookkeeping workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

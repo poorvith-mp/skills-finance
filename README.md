@@ -2,7 +2,7 @@
 
 Finance skills collection for Claude Code, Cursor, Codex, Gemini CLI, and `npx skills` — part of [Skillary](https://github.com/poorvith-mp/skillary) by [Poorvith M P](https://github.com/poorvith-mp).
 
-- **Version**: `v3.0.0`
+- **Version**: `v4.0.0`
 - **Total Skills**: `12`
 - **License**: MIT
 - **Hub Repository**: [poorvith-mp/skillary](https://github.com/poorvith-mp/skillary)
@@ -19,32 +19,40 @@ Or install individual skills directly:
 npx skills add poorvith-mp/skills-finance --skill <skill-id>
 ```
 
-For Claude Code plugin marketplace:
-```bash
-/plugin install poorvith-mp/finance
-```
-
 ## Skills in this Collection
+
+### Accounting
 
 | Skill ID | Title | Description |
 |:---------|:------|:------------|
-| `bookkeeper-and-controller` | [📒 Bookkeeper & Controller Agent](skills/bookkeeper-and-controller/SKILL.md) | >- |
-| `budget-expense-auditor` | [Budget & Expense Auditor](skills/budget-expense-auditor/SKILL.md) | >- |
-| `cap-table-fundraising-modeler` | [Cap Table & Fundraising Modeler](skills/cap-table-fundraising-modeler/SKILL.md) | >- |
-| `chief-financial-officer` | [💼 Chief Financial Officer Agent](skills/chief-financial-officer/SKILL.md) | >- |
-| `crypto-tax-advisor` | [Crypto Tax Specialist](skills/crypto-tax-advisor/SKILL.md) | >- |
-| `financial-analyst` | [📊 Financial Analyst Agent](skills/financial-analyst/SKILL.md) | >- |
-| `financial-plan-starter` | [Financial Plan Starter](skills/financial-plan-starter/SKILL.md) | >- |
-| `fp-and-a-analyst` | [📈 FP&A Analyst Agent](skills/fp-and-a-analyst/SKILL.md) | >- |
-| `insurance-actuary-analyst` | [Insurance & Actuarial Analyst](skills/insurance-actuary-analyst/SKILL.md) | >- |
-| `investment-researcher` | [🔍 Investment Researcher Agent](skills/investment-researcher/SKILL.md) | >- |
-| `invoice-and-payment-writer` | [Invoice & Payment Writer](skills/invoice-and-payment-writer/SKILL.md) | >- |
-| `tax-strategist` | [🏛️ Tax Strategist Agent](skills/tax-strategist/SKILL.md) | >- |
+| `accounts-payable` | [Accounts Payable](skills/accounts-payable/SKILL.md) | Run payables: vendor payments, contractor invoices and recurring bills across fiat, crypto and stablecoin rails. |
+| `bookkeeping` | [Bookkeeping](skills/bookkeeping/SKILL.md) | Run day-to-day accounting: reconciliations, month-end close, journal entries and internal controls. |
+| `budgeting` | [Budgeting](skills/budgeting/SKILL.md) | Build the budget, run rolling forecasts, and explain budget-versus-actual variance and expense anomalies. |
+| `invoicing` | [Invoicing](skills/invoicing/SKILL.md) | Draft invoices, payment schedules and receivables with tax lines, payment terms and late-fee policy. |
 
-## Author & Maintenance
+### Modelling
 
-Authored and curated by **[Poorvith M P](https://github.com/poorvith-mp)** as part of the [Skillary](https://github.com/poorvith-mp/skillary) modular skills architecture.
+| Skill ID | Title | Description |
+|:---------|:------|:------------|
+| `cap-table` | [Cap Table](skills/cap-table/SKILL.md) | Model cap tables, dilution scenarios, waterfalls and round structures — SAFE, convertible notes, priced. |
+| `finance-strategy` | [Finance Strategy](skills/finance-strategy/SKILL.md) | Set capital allocation, treasury policy, M&A finance, investor relations and board reporting. |
+| `financial-modeling` | [Financial Modeling](skills/financial-modeling/SKILL.md) | Build models, forecasts, valuations and scenario analyses from raw data. |
+| `runway-planning` | [Runway Planning](skills/runway-planning/SKILL.md) | Work out burn rate, months of runway, which cuts buy how long, and when the raise has to start. |
+| `saas-metrics` | [Saas Metrics](skills/saas-metrics/SKILL.md) | Track MRR, ARR, cohort revenue, net revenue retention, and recognise revenue on the right period. |
+
+### Tax
+
+| Skill ID | Title | Description |
+|:---------|:------|:------------|
+| `crypto-tax` | [Crypto Tax](skills/crypto-tax/SKILL.md) | Calculate capital gains, DeFi yield, NFT trades and cross-chain activity under FIFO, LIFO or HIFO. |
+| `tax-strategy` | [Tax Strategy](skills/tax-strategy/SKILL.md) | Plan entity structure, transfer pricing, credits and multi-jurisdiction compliance. |
+
+### Investing
+
+| Skill ID | Title | Description |
+|:---------|:------|:------------|
+| `investment-research` | [Investment Research](skills/investment-research/SKILL.md) | Run market analysis, due diligence, valuation and portfolio review across asset classes. |
 
 ## License
 
-MIT License. See [LICENSE](LICENSE) for details.
+MIT © [Poorvith M P](https://github.com/poorvith-mp)
