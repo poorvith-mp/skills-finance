@@ -5,60 +5,59 @@ description: >-
   Work out burn rate, months of runway, which cuts buy how long, and when the raise has to start.
   Use when calculating net burn, zero-cash dates, or default-alive plans.
 ---
+
 # Runway Planning
 
-Work out burn rate, months of runway, which cuts buy how long, and when the raise has to start..
+Runway planning is insolvency avoidance. Runway modeling requires calculating fully-loaded gross burn and net burn, establishing deterministic Zero Cash Dates (ZCD), evaluating the "Default Alive vs Default Dead" framework, and structuring phased cost-reduction playbooks triggered by explicit cash thresholds.
 
-## Process
+## 1. Burn Rate & Runway Formulations
 
-1. **Intake & Scope Definition**
-   - Identify specific objectives, inputs, constraints, and operational context.
-   - Inspect existing project documentation, configurations, or relevant repository assets.
+Calculate financial runway with mathematical precision:
+- **Gross Monthly Burn**:
+  $$\text{Gross Burn} = \text{Total Monthly Cash Outflows (Payroll + Hosting + Rent + Marketing + Tooling)}$$
+- **Net Monthly Burn**:
+  $$\text{Net Burn} = \text{Gross Burn} - \text{Total Monthly Cash Collections}$$
+  *Rule*: Use cash receipts, not accrual booked revenue, to calculate Net Burn.
+- **Months of Runway**:
+  $$\text{Months of Runway} = \frac{\text{Current Cash Balance} - \text{Restricted/Reserve Buffer}}{\text{Average Net Monthly Burn (Trailing 3 Months)}}$$
+- **Zero Cash Date (ZCD)**: The exact calendar date when the operating cash account reaches zero.
 
-2. **Analysis & Strategic Formulation**
-   - Evaluate options against best practices, security posture, and domain requirements.
-   - Deconstruct complex components into discrete, actionable phases.
+## 2. The Default Alive vs. Default Dead Framework (Paul Graham)
+Evaluate company trajectory before planning capital allocation:
+- **Default Alive**: If current revenue growth rate continues without hiring more staff or raising more capital, will the company reach cash flow profitability before running out of money?
+- **Default Dead**: At the current burn rate and revenue trajectory, the company will run out of cash before reaching breakeven, requiring external financing to survive.
+- *Strategic Mandate*: If Default Dead, the executive team must immediately either: (a) accelerate unit-profitable growth, or (b) reduce burn to cross into Default Alive territory.
 
-3. **Execution & Synthesis**
-   - Produce structured, production-grade deliverables matching the required format.
-   - Ground all recommendations in concrete project evidence rather than abstract generalities.
+## 3. The Runway Defense Trigger Framework
+Establish pre-committed executive triggers tied to months of remaining runway:
 
-4. **Review & Refinement**
-   - Validate against the verification checklist and domain edge cases.
-   - Highlight open questions, explicit trade-offs, and next milestones.
+| Remaining Runway | Status Stage | Mandatory Executive Actions |
+|---|---|---|
+| **> 18 Months** | Green (Growth Zone) | Standard operating plan; strategic hiring within approved budget envelopes. |
+| **12 – 18 Months** | Yellow (Prepare Raise) | Prepare fundraising materials; stress-test BVA variance; tighten discretionary spend. |
+| **9 – 12 Months** | Amber (Active Raise) | Launch formal equity/debt fundraising round; freeze non-revenue headcount. |
+| **6 Months** | Red (Cost Cut Trigger) | Execute Phase 1 cost cuts: freeze all hiring, eliminate non-essential software, cut paid marketing. |
+| **< 3 Months** | Black (Survival Plan) | Execute Phase 2 cost cuts: across-the-board payroll reductions, wind-down plan, M&A sale. |
 
-## Deliverable & Output Format
+## 4. Scenario Sensitivity Modeling
+Model three distinct financial scenarios:
+1. **Status Quo (Base Case)**: Current net burn rate projected forward with modest planned growth.
+2. **Fundraising Runway Requirement**: A standard venture capital fundraising process requires **6 to 9 months** from first meeting to cash in bank. If you begin raising with <6 months of runway, you enter negotiations with zero leverage.
+3. **Emergency Zero-Growth Budget**: Demonstrates the exact line-item cuts required to achieve cash flow break-even within 60 days.
 
-### 📋 Executive Summary
-- **Objective:** Key goal addressed
-- **Status:** Complete / Action Required
-- **Primary Recommendation:** Core actionable conclusion
+## Critical Rules
+1. Never calculate runway using projected, unclosed revenue increases; runway is measured against guaranteed cash.
+2. The fundraising countdown begins when cash hits 12 months, not 6 months.
+3. Include severance costs, lease termination penalties, and working capital lag when modeling emergency expense reductions.
 
-### 🛠️ Detailed Implementation / Analysis
-- Concrete technical, operational, or strategic specifications.
-- Clear code, configuration, or documentation blocks where applicable.
+## Verification Checklist
+- [ ] Net burn calculated using cash collections rather than accrual revenue.
+- [ ] Trailing 3-month average burn used to smooth one-off expenditure anomalies.
+- [ ] Exact Zero Cash Date (ZCD) calculated and visible on executive dashboards.
+- [ ] Default Alive / Default Dead status evaluated and communicated to the board.
+- [ ] Phased cost-reduction playbook documented with explicit trigger dates.
 
-### 📌 Decisions & Next Steps
-- [ ] Immediate action items with designated owners.
-- [ ] Required dependencies or prerequisite milestones.
-
-## Instructions & Operating Rules
-
-- Lead directly with actionable findings and structured results.
-- Never introduce speculative abstractions or unrequested complexity.
-- Maintain consistency with existing architecture and naming conventions.
-- Provide explicit rationales for non-obvious trade-offs.
-
-## Verification & Quality Checklist
-
-- [ ] Deliverable directly satisfies all stated user requirements and criteria.
-- [ ] Edge cases, boundary conditions, and error states are addressed.
-- [ ] Output contains zero placeholder tokens, broken references, or unverified claims.
-- [ ] All cross-references and formatting comply with repository conventions.
-
-## Anti-Patterns & Constraints
-
-- **NEVER** output generic boilerplate without grounding in specific project inputs.
-- **NEVER** silently omit unresolved contradictions or unverified assumptions.
-- **NEVER** make unrequested modifications outside the stated deliverable boundary.
-
+## Anti-Patterns
+- NEVER assume an existing investor will provide an emergency insider bridge round without a signed term sheet.
+- NEVER wait until 4 months of runway remain before initiating cost reductions.
+- NEVER include accounts receivable in immediate cash runway calculations without applying a bad-debt discount.
