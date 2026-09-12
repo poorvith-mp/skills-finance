@@ -1,5 +1,6 @@
 ---
 name: financial-modeling
+last_reviewed: 2026-09-06
 group: Modelling
 description: >-
   Build models, forecasts, valuations and scenario analyses from raw data. Use when building

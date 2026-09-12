@@ -1,5 +1,6 @@
 ---
 name: budgeting
+last_reviewed: 2026-09-06
 group: Accounting
 description: >-
   Build the budget, run rolling forecasts, and explain budget-versus-actual variance and expense

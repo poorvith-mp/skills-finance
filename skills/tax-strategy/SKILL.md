@@ -1,5 +1,6 @@
 ---
 name: tax-strategy
+last_reviewed: 2026-09-06
 group: Tax
 description: >-
   Plan entity structure, transfer pricing, credits and multi-jurisdiction compliance. Use when

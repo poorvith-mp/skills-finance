@@ -1,5 +1,6 @@
 ---
 name: saas-metrics
+last_reviewed: 2026-09-06
 group: Modelling
 description: >-
   Track MRR, ARR, cohort revenue, net revenue retention, and recognise revenue on the right

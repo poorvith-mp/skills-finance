@@ -1,5 +1,6 @@
 ---
 name: cap-table
+last_reviewed: 2026-09-06
 group: Modelling
 description: >-
   Model cap tables, dilution scenarios, waterfalls and round structures — SAFE, convertible notes,

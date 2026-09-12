@@ -1,5 +1,6 @@
 ---
 name: crypto-tax
+last_reviewed: 2026-09-06
 group: Tax
 description: >-
   Calculate capital gains, DeFi yield, NFT trades and cross-chain activity under FIFO, LIFO or

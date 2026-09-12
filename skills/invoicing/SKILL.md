@@ -1,5 +1,6 @@
 ---
 name: invoicing
+last_reviewed: 2026-09-06
 group: Accounting
 description: >-
   Draft invoices, payment schedules and receivables with tax lines, payment terms and late-fee

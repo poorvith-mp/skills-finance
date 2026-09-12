@@ -1,5 +1,6 @@
 ---
 name: investment-research
+last_reviewed: 2026-09-06
 group: Investing
 description: >-
   Run market analysis, due diligence, valuation and portfolio review across asset classes. Use

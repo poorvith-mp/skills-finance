@@ -1,5 +1,6 @@
 ---
 name: runway-planning
+last_reviewed: 2026-09-06
 group: Modelling
 description: >-
   Work out burn rate, months of runway, which cuts buy how long, and when the raise has to start.

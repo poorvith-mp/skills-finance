@@ -1,5 +1,6 @@
 ---
 name: bookkeeping
+last_reviewed: 2026-09-06
 group: Accounting
 description: >-
   Run day-to-day accounting: reconciliations, month-end close, journal entries and internal

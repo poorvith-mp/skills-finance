@@ -1,5 +1,6 @@
 ---
 name: finance-strategy
+last_reviewed: 2026-09-06
 group: Modelling
 description: >-
   Set capital allocation, treasury policy, M&A finance, investor relations and board reporting.

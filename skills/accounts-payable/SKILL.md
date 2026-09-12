@@ -1,5 +1,6 @@
 ---
 name: accounts-payable
+last_reviewed: 2026-09-06
 group: Accounting
 description: >-
   Run payables: vendor payments, contractor invoices and recurring bills across fiat, crypto and
